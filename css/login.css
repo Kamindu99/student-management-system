@@ -1,195 +1,21 @@
+.btn-color{
+  background-color: #0e1c36;
+  color: #fff;
+  
+}
 
-  .register {
-    color: white;
-    text-align: center;
-  }
-
-  .register a {
-    color: rgb(74, 146, 235);
-  }
-
-  .register a:link {
-    text-decoration: none;
-  }
-
-  /* Media queries for the responsiveness of the page */
-  @media screen and (max-width: 600px) {
-    form {
-      width: 25rem;
-    }
-  }
-
-  @media screen and (max-width: 400px) {
-    form {
-      width: 20rem;
-    }
-  }
-
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+.profile-image-pic{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
 
 
 
-  .left-side {
-    flex: 1;
-    background: -webkit-linear-gradient(to right, #0000FF, #FF0000);
-    background: linear-gradient(to right, #ADD8E6, #FFFFFF);
-    background-image: url("https://static1.shine.com/l/m/images/blog/job_search_portals.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
+.cardbody-color{
+  background-color: #ebf2fa;
+}
 
-  #left-side-container img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    height: 410px;
-  }
-
-  .right-side {
-    background: -webkit-linear-gradient(to right, #ff9500, #FF0000);
-    background: linear-gradient(to right, #e6c4ad, #FFFFFF);
-    align-items: center;
-    justify-content: center;
-  }
-
-  .form-container {
-    text-align: center;
-    font-size: 18px;
-    color: white;
-    padding: 20px;
-  }
-
-  .form-container h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-
-  .form-container input[type="text"],
-  .form-container input[type="email"],
-  .form-container input[type="password"],
-  .form-container textarea,
-  .form-container select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-
-  .form-container input[type="radio"] {
-    margin: 0 5px;
-  }
-
-  .form-container label {
-    display: inline-block;
-    margin-right: 10px;
-    color: white;
-  }
-
-
-
-  #submitBtn {
-    border-radius: 40px;
-    padding: 12px 12px;
-    width: 300px;
-    background-color: #1abc9c;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-
-  @media screen and (max-width: 600px) {
-    form {
-      width: 25rem;
-    }
-
-  }
-
-  @media screen and (max-width: 400px) {
-    form {
-      width: 20rem;
-    }
-  }
-
-  .logingimage {
-    object-fit: fill;
-  }
-
-
-  .loginswitch {
-    display: flex;
-    justify-content: center; 
-  }
-
-  .loginswitch .container {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 18px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    margin-right: 40px;
-  }
-
-  /* Hide the browser's default radio button */
-  .loginswitch .container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-  }
-
-  /* Create a custom radio button */
-  .loginswitch .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    border-radius: 50%;
-  }
-
-  /* On mouse-over, add a grey background color */
-  .loginswitch .container:hover input~.checkmark {
-    background-color: #ccc;
-  }
-
-  /* When the radio button is checked, add a blue background */
-  .loginswitch .container input:checked~.checkmark {
-    background-color: #2196F3;
-  }
-
-  /* Create the indicator (the dot/circle - hidden when not checked) */
-  .loginswitch .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-
-  /* Show the indicator (dot/circle) when checked */
-  .loginswitch .container input:checked~.checkmark:after {
-    display: block;
-  }
-
-  /* Style the indicator (dot/circle) */
-  .loginswitch .container .checkmark:after {
-    top: 9px;
-    left: 9px;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: white;
-  }
+a{
+  text-decoration: none;
+}
