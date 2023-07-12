@@ -1,6 +1,6 @@
 # Student Management System
 
-![ Application](https://res.cloudinary.com/dmfljlyu1/image/upload/v1687292391/potfolioappmy_imyf7n.jpg)
+![ Application](https://res.cloudinary.com/dmfljlyu1/image/upload/v1689184513/studentmanagement_frffjk.jpg)
 
 ## Description
 

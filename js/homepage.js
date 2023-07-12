@@ -1,5 +1,5 @@
 function confirmDelete() {
-    if (confirm("Are you sure you want to deactivate company account?")) {
+    if (confirm("Are you sure you want to deactivate Student account?")) {
       deleteRecord();
     }
   }

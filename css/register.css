@@ -26,11 +26,7 @@
 }
 
 
-
-
-
 /*end of nav*/
-
 
 
 * {
@@ -40,34 +36,27 @@
 }
 
 body {
-  background-color: #333;
+  background-color: #765f5f;
   display: flex;
   flex-direction: column;
   min-height: 95vh;
 }
 
 
-
+.bodycsss {
+  background-image: url(https://e0.pxfuel.com/wallpapers/238/691/desktop-wallpaper-wiki-plain-blue-background-pic-wpe006182-springfield-education-association-wikipedia-thumbnail.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.bodycsss .bodypart{
+background-color: #b3b3b3a9;
+}
 
 .content-wrapper {
   flex: 1;
   display: flex;
   justify-content: center;
 }
-
-.left-side {
-  flex: 1;
-  background-color: pink;
-  min-height: 100%;
-}
-
-.right-side {
-  flex: 1;
-  background: -webkit-linear-gradient(to right, #0000FF, #FF0000);
-  background: linear-gradient(to right, #ADD8E6, #FFFFFF);
-  min-height: 100%;
-}
-
 
 h6 {
   font-size: 47px;
@@ -172,8 +161,8 @@ textarea {
   margin-right: 25px;
 }
 
-input[type="date"]{
-  width:27%;
+input[type="date"] {
+  width: 27%;
 }
 
 .right-side form {
@@ -256,9 +245,7 @@ h5 {
   display: inline-block;
 }
 
-.search-bar1 input[type="text"] {
-
-}
+.search-bar1 input[type="text"] {}
 
 .search-bar1 button {
 
@@ -359,7 +346,7 @@ body {
   display: flex;
   align-items: center;
   height: 60px;
-  background-image: linear-gradient(to right, #f08503, #f65105);
+  background-image: linear-gradient(to right, #034af0, #f65105);
   padding: 0 20px;
   padding-top: 10px;
 }
@@ -387,8 +374,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: linear-gradient(to right, #f08503, #f65105);
+  background-image: linear-gradient(to right, #0f0f0f, #464647);
   padding: 10px;
+  color: #fff;
+  padding-left: 2%;
 }
 
 .header-left1 {

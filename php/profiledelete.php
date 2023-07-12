@@ -10,12 +10,12 @@ if (isset($_SESSION['empid'])) {
     $stmt->bind_param("s", $empid);
 
     if ($stmt->execute()) {
-        echo "Company deleted successfully.";
+        echo "Student deleted successfully.";
        
     } else {
         echo "Error deleting record: " . $stmt->error;
     }
 } else {
-    echo "Company ID not found.";
+    echo "Student ID not found.";
 }
 ?>

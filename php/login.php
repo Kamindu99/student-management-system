@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $_SESSION['empid'] = $empid;
     
             echo "<script> 
-                alert('Company Login Successful !');
+                alert('Student Login Successful !');
                 window.location.href='profile.php';
             </script>";
         } else {

@@ -20,7 +20,7 @@ $stmt->close();
 <html lang="en">
 
 <head>
-    <title>Company Profile</title>
+    <title>Student Profile</title>
     <link rel="stylesheet" href="../css/register.css">
     <link rel="stylesheet" href="../css/homepage.css">
 </head>
@@ -31,8 +31,8 @@ $stmt->close();
         <div class="logo-container">
                     <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt="logo" height="100px" width="100px" class="logo">
                 </div>
-            <span ><h4>HireHUB</h4></span>
-            <p class="buil">Building Bridges for <br> Career Growth</p>
+            <span ><h4>Student Management System</h4></span>
+            <p class="buil">Building Bridges for <br> Study Growth</p>
         </div>
         <div class="header-right1">
    
@@ -47,7 +47,7 @@ $stmt->close();
     <nav>
     <ul class="navigation">
         <li><a href="last_site.html">Home</a></li>
-        <li><a href="vacancy_page.php">Vacancies</a></li>
+        <li><a href="vacancy_page.php">Modules</a></li>
         <li><a href="web.php">Contact US</a></li>
         <li><a href="aboutus.html">About Us</a></li>
         <li class="search">
@@ -67,10 +67,10 @@ $stmt->close();
    
         <br> <br> 
 
-<h2 style="text-align:center">Company Profile</h2><br> <br>
+<h2 style="text-align:center">Student Profile</h2><br> <br>
 
 <div class="card">
-  <img src="https://www.freeiconspng.com/thumbs/business-icon-png/company-icon--desktop-business-icons--softiconsm-23.png" alt="John" style="height:200px">
+  <img src="https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG.png" alt="John" style="height:200px">
   <br><br>
   <h1 class="nameff"><?= $compname ?></h1>  <br>
   <p class="title">Email : <?php echo $email; ?></p>  <br>

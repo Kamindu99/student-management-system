@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             if ($stmt->execute()) {
                 echo "<script> 
-            alert('Company Registration successful!');
+            alert('Student Registration successful!');
             window.location.href='../html/login.html';
         </script>";
             } else {

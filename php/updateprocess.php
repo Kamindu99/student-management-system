@@ -21,14 +21,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($stmt->execute()) {
         echo "<script> 
-        alert('Company Details updated successfully');
+        alert('Student Details updated successfully');
         window.location.href='profile.php';
     </script>";
     } else {
       echo "Error updating record: " . $stmt->error;
     }
   } else {
-    echo "company ID not found.";
+    echo "Student ID not found.";
   }
 }
 ?>
