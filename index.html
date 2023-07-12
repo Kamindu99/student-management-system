@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Log in</title>
+    <link rel="stylesheet" href="./css/login.css">
+
+</head>
+
+<body>
+   
+    <div class="right-side">
+        <div class="form-container">
+            <h1><u>Student Management System</u></h1>
+            <form onsubmit="return checkPassword();" action="./php/login.php" method="post">
+
+                <div class="headingsContainer">
+
+                    <h3>Welcome back!</h3>
+                    <br>
+                    <p>Please login to continue!</p>
+                    <br>
+                </div>
+
+
+                <div class="mainContainer">
+
+                    <label for="username">Please enter your username here.</label><br><br>
+                    <input type="text" placeholder="Enter Username" id="username" name="username" required>
+                    <br><br>
+                    <label>Please enter your password here</label><br><br>
+                    <input type="password" placeholder="Enter Password" name="password" id="password" required>
+                    <br>
+                    <br>
+                    <div class="subcontainer">
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                        <p class="forgotpsd"> <a href="#">Forgot Password?</a></p>
+                    </div>
+                    <input id="checkBox" type="checkbox" onclick="enableButton2()">Accept privacy required <br>
+                    <br /><br />
+
+                    <p class="register">Isn't a member? <a href="./html/register.html"> Please register here!</a></p>
+                </div>
+
+                <center><input type="submit" id="submitBtn" value="Login"></center>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
