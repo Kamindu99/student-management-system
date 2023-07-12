@@ -10,7 +10,7 @@ function confirmDelete() {
       if (this.readyState === 4 && this.status === 200) {
        
         alert(this.responseText);
-        window.location.href='../html/login.html';
+        window.location.href='../index.html';
   
       }
     };
@@ -31,7 +31,7 @@ function confirmDelete() {
       .then(response => response.text())
       .then(data => {
         alert("Logout Success");
-        window.location.href = "../html/login.html";
+        window.location.href = "../index.html";
       })
       .catch(error => {
         console.log('Error:', error);

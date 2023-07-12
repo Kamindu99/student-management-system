@@ -3,25 +3,55 @@
 
 <head>
     <title>Log in</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/354/354637.png" />
     <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/register.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
 
+    <div class="header">
+        <div class="header-left1">
+          <span>
+            <h4>Student Management System</h4>
+          </span>
+          <p class="buil">Building Bridges for <br> Study Growth</p>
+        </div>
+        <div class="header-right1">
+    
+          <a href="index.html" class="btn btn-primary btn-custom me">Login</a>
+          <a href="./html/register.html" class="btn btn-primary btn-custom me">Register</a>
+        </div>
+      </div>
+      <nav>
+        <ul class="navigation">
+          <li><a href="last_site.html">Home</a></li>
+          <li><a href="vacancy_page.php">Modules</a></li>
+          <li><a href="web.php">Contact US</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li class="search">
+            <form>
+              <input type="text" placeholder="Search...">
+              <button type="submit">Search</button>
+            </form>
+          </li>
+        </ul>
+      </nav>
+
     <div class="container">
         <div class="row">
           <div class="col-md-6 offset-md-3">
-            <h2 class="text-center text-dark mt-5">Student Login</h2>
-            <div class="text-center mb-5 text-dark">Please login to your account</div>
+           
             <div class="card my-5">
     
+               
               <form class="card-body cardbody-color p-lg-5" onsubmit="return checkPassword();" action="./php/login.php" method="post">
-    
+                <h2 class="text-center text-dark ">Student Login</h2>
                 <div class="text-center">
-                  <img src="https://cdn.pixabay.com/photo/2016/03/31/19/56/avatar-1295397__340.png" class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3"
-                    width="200px" alt="profile">
+                  <img src="https://pnghq.com/wp-content/uploads/2023/01/login_button_png_16_5536.png" class=" mb-4"
+                    style="height: 100px;" alt="profile">
                 </div>
     
                 <div class="mb-3">
@@ -31,8 +61,8 @@
                 <div class="mb-3">
                   <input type="password" class="form-control" id="password" placeholder="password"  name="password">
                 </div>
-                <div class="text-center"><button type="submit" class="btn btn-color px-5 mb-5 w-100">Login</button></div>
-                <div id="emailHelp" class="form-text text-center mb-5 text-dark">Not
+                <div class="text-center"><button type="submit" class="btn btn-color px-5 mb-2 w-100">Login</button></div>
+                <div id="emailHelp" class="form-text text-center text-dark">Not
                   Registered? <a href="./html/register.html" class="text-dark fw-bold"> Create an
                     Account</a>
                 </div>
@@ -42,6 +72,32 @@
           </div>
         </div>
       </div>
+      
+  <footer class="footer">
+    <div class="footer-content">
+      <h4>About Us</h4>
+      <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel dui sed lacus commodo posuere.</h6>
+    </div>
+    <div class="footer-content">
+      <h4>Contact Info</h4>
+      <h6>Email: info@example.com</h6>
+      <h6>Phone: +1 123 456789</h6>
+    </div>
+    <div class="footer-content search-bar1">
+      <h4>Search</h4>
+      <form action="#" method="get">
+        <input type="text" placeholder="Search..." class="w-50">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <div class="footer-content">
+      <h4>Follow Us</h4>
+      <div class="social-media">
+
+      </div>
+    </div>
+  </footer>
+
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"></script>

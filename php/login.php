@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         } else {
             echo "<script> 
                 alert('Login Unsuccessful');
-                window.location.href='../html/login.html';
+                window.location.href='../index.html';
             </script>";
         }
      }
