@@ -8,8 +8,8 @@ A student management system is a management information system for education sec
 
 key sections:
 
-- **Log in**
-- **Register**
+- **Student Register**
+- **Student Login**
 - **Student Profile**
 - **Home Page**
 
