@@ -5,7 +5,6 @@ session_start();
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'];
     $pass = $_POST['password'];
-    $logintype = $_POST['logintype'];
 
     if (strlen($pass) < 8) {
         echo "<script> 
@@ -30,6 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         } else {
             echo "<script> 
                 alert('Login Unsuccessful');
+                window.location.href='../html/login.html';
             </script>";
         }
      }

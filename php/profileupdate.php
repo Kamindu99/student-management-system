@@ -31,7 +31,7 @@ if (isset($_SESSION['empid'])) {
     
     <head>
         <title>Company Profile Update</title>
-        <link rel="stylesheet" href="./css/register.css">
+        <link rel="stylesheet" href="../css/register.css">
     </head>
     
     <body>
@@ -159,7 +159,7 @@ if (isset($_SESSION['empid'])) {
             </div>
         </footer>
     
-        <script src="./js/register.js"></script>
+        <script src="../js/register.js"></script>
       
     </body>
     
