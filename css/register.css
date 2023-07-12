@@ -1,0 +1,427 @@
+.header-buttons button {
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header-buttons #login-btn {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.header-buttons #register-btn {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/*header btn*/
+
+/*nav bar*/
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+
+
+
+
+/*end of nav*/
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+
+
+
+.content-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.left-side {
+  flex: 1;
+  background-color: pink;
+  min-height: 100%;
+}
+
+.right-side {
+  flex: 1;
+  background: -webkit-linear-gradient(to right, #0000FF, #FF0000);
+  background: linear-gradient(to right, #ADD8E6, #FFFFFF);
+  min-height: 100%;
+}
+
+
+h6 {
+  font-size: 47px;
+  font-family: "Brush Script MT", cursive;
+}
+
+
+.form-container {
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  font-family: "Verdana";
+  padding: 20px;
+  max-width: 500px;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+}
+
+h1 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.logo-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-inline-end: 70px;
+  margin-top: 35px;
+}
+
+/*dot nav*/
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.8s ease;
+
+
+}
+
+/*dot nav ends*/
+.fade {
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+#left-side-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 810px;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+textarea {
+  border-radius: 10px;
+  padding: 10px 12px;
+  border: none;
+  margin-right: 25px;
+}
+
+input[type="date"]{
+  width:27%;
+}
+
+.right-side form {
+  width: 45rem;
+  margin: auto;
+  color: black;
+  align: center;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(11, 15, 13, 0.582);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 15px;
+}
+
+#submitBtn {
+  border-radius: 40px;
+  padding: 12px 12px;
+  width: 300px;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer-content {
+  max-width: 300px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.social-media a:hover {
+  color: #ff9800;
+}
+
+.search-bar1 {
+  text-align: center;
+}
+
+.search-bar1 form {
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.search-bar1 input[type="text"] {
+
+}
+
+.search-bar1 button {
+
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #84aa1a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  form {
+    width: 25rem;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  form {
+    width: 20rem;
+  }
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #e0d5c4;
+  margin: 0;
+  padding: 0;
+}
+
+.header1 {
+  background-color: #f1f1f1;
+  /*navbarcolor= #f1f1f1*/
+}
+
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.navigation li {
+  float: left;
+}
+
+.navigation li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation .search {
+  float: right;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+
+.navigation input[type="text"] {
+  padding: 6px;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.navigation button[type="submit"] {
+  padding: 6px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+
+
+/* nav bar */
+
+
+
+
+.header1 {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-image: linear-gradient(to right, #f08503, #f65105);
+  padding: 0 20px;
+  padding-top: 10px;
+}
+
+.header-left1 {
+
+  flex: 1;
+}
+
+.btn-custom {
+  background-color: #45a049;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-custom:hover {
+  background-color: #45a049;
+}
+
+/* CSS for header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, #f08503, #f65105);
+  padding: 10px;
+}
+
+.header-left1 {
+  flex-grow: 1;
+}
+
+.header-left1 h4 {
+  margin: 0;
+}
+
+.buil {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.header-right1 {
+  flex-grow: 1;
+  text-align: right;
+  margin-right: 100px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn-custom {
+  margin-right: 10px;
+}
+
+/* Additional CSS styling can be added for other elements in the code */
